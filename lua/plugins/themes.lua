@@ -50,4 +50,4 @@ return {
       colorscheme = "catppuccin",
     },
   },
-
+}
