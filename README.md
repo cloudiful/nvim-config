@@ -8,3 +8,5 @@ then clone this repo into ~/.config/nvim/
 ```
 git clone https://github.com/cloudiful/nvim-config.git ~/.config/nvim/
 ```
+
+If you want to use nvim in an offline environment, check out the release page.
