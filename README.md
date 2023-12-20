@@ -5,6 +5,7 @@
 
 ## With Internet 🛜
 If you want to use my config, backup your config files first
+(ignore if you are new to neovim)
 ```
 mv ~/.config/nvim{,.bak}
 ```
