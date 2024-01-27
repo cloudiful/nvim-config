@@ -7,6 +7,7 @@ return {
       servers = {
         volar = {},
         zls = {},
+        bashls = {},
       },
     },
   },
