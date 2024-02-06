@@ -1,6 +1,8 @@
 # 😈 My personal nvim setup 🔧
 
-## It is basically LazyVim💤 with Catppuccin🐱 theme and transparent🪟 background
+It is basically LazyVim💤 with Catppuccin🐱 theme and transparent🪟 background
+
+## Setup
 
 ### With Internet 🛜
 
