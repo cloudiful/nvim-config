@@ -13,3 +13,25 @@ elseif os:find("Windows") then
   -- on Windows use control+c to copy
   map("v", "<C-c>", "y")
 end
+
+-- use j to jump
+map({ "n", "x", "o" }, "j", function()
+  require("flash").jump()
+end, { desc = "Flash" })
+map({ "n", "x", "o" }, "J", function()
+  require("flash").treesitter()
+end, { desc = "Flash Treesitter" })
+
+-- use wasd to move around like a game
+map({ "n", "v" }, "w", "k")
+map({ "n", "v" }, "s", "j")
+map({ "n", "v" }, "a", "h")
+map({ "n", "v" }, "d", "l")
+
+-- use k to delete
+map({ "n", "v" }, "k", "d")
+map("n", "kk", "dd")
+
+-- use q to insert
+map({ "n", "v" }, "q", "i")
+map({ "n", "v" }, "e", "a")
