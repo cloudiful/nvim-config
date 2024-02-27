@@ -28,6 +28,11 @@ map({ "n", "v" }, "s", "j")
 map({ "n", "v" }, "a", "h")
 map({ "n", "v" }, "d", "l")
 
+map({ "n", "v" }, "W", "<C-b>")
+map({ "n", "v" }, "S", "<C-f>")
+map({ "n", "v" }, "A", "ge")
+map({ "n", "v" }, "D", "e")
+
 -- use k to delete
 map({ "n", "v" }, "k", "d")
 map("n", "kk", "dd")
@@ -35,3 +40,7 @@ map("n", "kk", "dd")
 -- use q to insert
 map({ "n", "v" }, "q", "i")
 map({ "n", "v" }, "e", "a")
+
+-- use ` to go to the start of line | 0 to EOL
+map({ "n", "v" }, "`", "^")
+map({ "n", "v" }, "0", "$")
