@@ -19,7 +19,6 @@ return {
         "vue",
         "css",
         "scss",
-        "ocaml",
         "xml",
         "zig",
       })
