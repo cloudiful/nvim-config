@@ -4,16 +4,12 @@
 
 local map = vim.keymap.set
 local unmap = vim.keymap.del
-local os = vim.loop.os_uname().sysname
 
--- copy
-if os == "Darwin" then
-  -- on macOS use command+c to copy
-  map("v", "<D-c>", "y")
-elseif os:find("Windows") then
-  -- on Windows use control+c to copy
-  map("v", "<C-c>", "y")
-end
+-- use Ctrl+c to copy to clipboard
+map({ "n", "v" }, "<C-c>", "y")
+
+-- use Ctrl+z to ybdo
+map({ "n", "v", "i" }, "<C-z>", "<cmd>u<cr>")
 
 -- use j to jump
 map({ "n", "x", "o" }, "j", function()
