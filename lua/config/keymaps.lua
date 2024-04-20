@@ -6,10 +6,15 @@ local map = vim.keymap.set
 local unmap = vim.keymap.del
 
 -- use Ctrl+c to copy to clipboard
-map({ "n", "v" }, "<C-c>", "y")
+-- map({ "n", "v", "i" }, "<D-c>", "y")
 
--- use Ctrl+z to ybdo
-map({ "n", "v", "i" }, "<C-z>", "<cmd>u<cr>")
+map({ "n", "v", "i" }, "<D-s>", "<cmd>w<cr>")
+
+-- use Ctrl+z to undo
+map({ "n", "v", "i" }, "<D-z>", "<cmd>u<cr>")
+
+-- use Ctrl+a to select all
+map({ "n", "v", "i" }, "<D-a>", "<cmd>normal! ggVG<cr>")
 
 -- use j to jump
 map({ "n", "x", "o" }, "j", function()
