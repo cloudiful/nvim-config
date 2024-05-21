@@ -1,6 +1,8 @@
 {
   "extras": [
-    "lazyvim.plugins.extras.editor.mini-files",
+    "lazyvim.plugins.extras.dap.core",
+    "lazyvim.plugins.extras.editor.harpoon2",
+    "lazyvim.plugins.extras.editor.trouble-v3",
     "lazyvim.plugins.extras.lang.docker",
     "lazyvim.plugins.extras.lang.go",
     "lazyvim.plugins.extras.lang.java",
@@ -11,12 +13,13 @@
     "lazyvim.plugins.extras.lang.python-semshi",
     "lazyvim.plugins.extras.lang.rust",
     "lazyvim.plugins.extras.lang.tex",
+    "lazyvim.plugins.extras.lang.toml",
     "lazyvim.plugins.extras.lang.typescript",
-    "lazyvim.plugins.extras.lang.yaml",
-    "lazyvim.plugins.extras.editor.aerial"
+    "lazyvim.plugins.extras.lang.vue",
+    "lazyvim.plugins.extras.lang.yaml"
   ],
   "news": {
-    "NEWS.md": "3314"
+    "NEWS.md": "4964"
   },
-  "version": 3
+  "version": 4
 }
