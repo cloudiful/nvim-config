@@ -5,8 +5,8 @@ return {
     opts = {
       ---@type lspconfig.options
       servers = {
-        volar = {},
-        zls = {},
+        -- volar = {},
+        -- zls = {},
         bashls = {},
       },
     },
