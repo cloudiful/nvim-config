@@ -13,10 +13,18 @@ If you want to use my config, backup your config files first
 mv ~/.config/nvim{,.bak}
 ```
 
-then clone this repo into ~/.config/nvim/
+then clone this repo
+
+Linux:
 
 ```bash
-git clone https://github.com/cloudiful/nvim-config.git ~/.config/nvim/
+git clone git@github.com:cloudiful/nvim-config.git ~/.config/nvim/
+```
+
+Windows (powershell):
+
+```bash
+git clone git@github.com:cloudiful/nvim-config.git "$env:USERPROFILE\AppData\Local\nvim"
 ```
 
 ### Offline Setup 🕸️
