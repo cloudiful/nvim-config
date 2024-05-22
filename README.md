@@ -16,7 +16,7 @@ mv ~/.config/nvim{,.bak}
 then clone this repo into ~/.config/nvim/
 
 ```bash
-git clone https://github.com/cloudiful/nvim-config.git ~/.config/nvim/
+git clone git@github.com:cloudiful/nvim-config.git ~/.config/nvim/
 ```
 
 ### Offline Setup 🕸️
