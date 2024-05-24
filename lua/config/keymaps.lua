@@ -5,8 +5,10 @@
 local map = vim.keymap.set
 local unmap = vim.keymap.del
 
--- use CMD+c to copy to clipboard
-map({ "n", "v", "i" }, "<C-c>", "y")
+-- use CTRL+c to copy to clipboard
+map({ "v" }, "<C-c>", "y")
+
+map({ "n", "v", "i" }, "<C-v>", "<cmd>normal! p<cr>")
 
 map({ "n", "v", "i" }, "<C-s>", "<cmd>w<cr>")
 
