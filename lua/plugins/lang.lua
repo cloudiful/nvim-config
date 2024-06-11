@@ -5,8 +5,7 @@ return {
     opts = {
       ---@type lspconfig.options
       servers = {
-        -- volar = {},
-        -- zls = {},
+        zls = {},
         bashls = {},
       },
     },
@@ -16,9 +15,6 @@ return {
     "nvim-treesitter/nvim-treesitter",
     opts = function(_, opts)
       vim.list_extend(opts.ensure_installed, {
-        "vue",
-        "css",
-        "scss",
         "xml",
         "zig",
       })
